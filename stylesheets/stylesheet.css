@@ -1,0 +1,53 @@
+@font-face{
+  font-family: 'Montserrat S';
+  src: url(./fonts/Montserrat-SemiBold.ttf);
+}
+@font-face{
+  font-family: 'OpenSans R';
+  src: url(./fonts/OpenSans-Regular.ttf);
+}
+.header{
+  height: 50vh;
+}
+.esports-intro{
+  background-color: #090909;
+  align-items: center;
+  height: 50vh;
+}
+.h1-orange{
+  font-size: 30px;
+  color: #F44E1D;
+  padding: 6%;
+  font-family: Montserrat S;
+}
+.video{
+  padding: 4%;
+}
+.p-white{
+  font-size: 18px;
+  color: #EAEAEA;
+  font-family: OpenSans R;
+}
+
+#burgerBtn {
+  border: none;
+    outline: none;
+}
+#burgerBtn:focus {
+  border: none;
+    outline: none;
+}
+#burgerBtn img{
+  width: 35px;
+    height: 35px;
+}
+.nav-link {
+  color: #090909;
+}
+.brand-link {
+  width: 200px;
+}
+.logo {
+  max-width: 100%;
+  margin-top: 10px;
+}
