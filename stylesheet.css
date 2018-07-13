@@ -2,16 +2,29 @@
 	font-family: 'Montserrat S';
   src: url(./fonts/Montserrat-SemiBold.ttf);
 }
+@font-face{
+  font-family: 'OpenSans R';
+  src: url(./fonts/OpenSans-Regular.ttf);
+}
+.header{
+  height: 50vh;
+}
 .esports-intro{
   background-color: #090909;
   align-items: center;
+  height: 50vh;
 }
-.orange{
-  font-size: 2rem;
+.h1-orange{
+  font-size: 30px;
   color: #F44E1D;
-  margin-left: 30px;
+  padding: 6%;
   font-family: Montserrat S;
 }
 .video{
-  margin-left: 30px;
+  padding: 4%;
+}
+.p-white{
+  font-size: 18px;
+  color: #EAEAEA;
+  font-family: OpenSans R;
 }
