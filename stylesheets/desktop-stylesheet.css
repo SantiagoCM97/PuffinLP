@@ -2,4 +2,19 @@
 	.brand-link {
 		width: 220px;
 	}
+	.navbar {
+		padding: .5rem 1.5rem;
+	}
+	.nav-item {
+		margin-right: 40px;
+		font-size: 40px;
+	}
+	.navbar-nav {
+		align-items: unset;
+	}
+}
+@media (min-width: 1024px) {
+	.brand-link {
+		padding-left: 1.5rem;
+	}
 }

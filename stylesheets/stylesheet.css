@@ -1,18 +1,30 @@
 @font-face{
   font-family: 'Montserrat S';
-  src: url(./fonts/Montserrat-SemiBold.ttf);
+  src: url(../fonts/Montserrat-SemiBold.ttf);
+}
+@font-face{
+  font-family: 'Montserrat';
+  src: url(../fonts/Montserrat-Regular.ttf);
 }
 @font-face{
   font-family: 'OpenSans R';
-  src: url(./fonts/OpenSans-Regular.ttf);
+  src: url(../fonts/OpenSans-Regular.ttf);
 }
-.header{
-  height: 50vh;
+.welcome-screen {
+  align-items: center;
+}
+.header {
+  max-width: 100%;
+  background-color: #FEFEFC;
 }
 .esports-intro{
   background-color: #090909;
   align-items: center;
   height: 50vh;
+}
+.max-width-wrapper {
+  max-width: 1280px;
+  margin: 0 auto;
 }
 .h1-orange{
   font-size: 30px;
@@ -43,6 +55,15 @@
 }
 .nav-link {
   color: #090909;
+  font-family: Montserrat;
+  font-size: 20px;
+}
+.navbar-nav {
+  align-items: center;
+}
+.dropdown-item {
+  color: #090909;
+  font-family: Montserrat;
 }
 .brand-link {
   width: 200px;
