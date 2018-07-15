@@ -7,8 +7,21 @@
   src: url(../fonts/Montserrat-Regular.ttf);
 }
 @font-face{
+  font-family: 'Montserrat B';
+  src: url(../fonts/Montserrat-Bold.ttf);
+}
+@font-face{
+  font-family: 'Montserrat M';
+  src: url(../fonts/Montserrat-Medium.ttf);
+  
+}
+@font-face{
   font-family: 'OpenSans R';
   src: url(../fonts/OpenSans-Regular.ttf);
+}
+body, html {
+  padding: 0;
+  margin: 0;
 }
 .welcome-screen {
   align-items: center;
@@ -26,11 +39,21 @@
   max-width: 1280px;
   margin: 0 auto;
 }
+.h1-black {
+  font-size: 30px;
+  color: #090909;
+  font-family: Montserrat B;
+}
 .h1-orange{
   font-size: 30px;
   color: #F44E1D;
   padding: 6%;
   font-family: Montserrat S;
+}
+.h3-black {
+  font-size: 15px;
+  color: #090909;
+  font-family: Montserrat M;
 }
 .video{
   padding: 4%;
@@ -58,6 +81,9 @@
   font-family: Montserrat;
   font-size: 20px;
 }
+.navbar {
+  margin-bottom: 20px;
+}
 .navbar-nav {
   align-items: center;
 }
@@ -72,3 +98,55 @@
   max-width: 100%;
   margin-top: 10px;
 }
+.header-content {
+  flex-flow: column;
+  margin-bottom: 20px;
+}
+.slogan-invitation-container {
+  display: flex;
+  flex-flow: column;
+}
+.header-slogan {
+  font-size: 3.9vh;
+  margin-bottom: 20px;
+}
+#slogan-videogame {
+  font-family: Montserrat B;
+}
+.header-invitation {
+  margin-bottom: 20px;
+  font-size: 2.6vh;
+}
+.sign-up-button-container {
+}
+.header-sign-up-btn {
+  background-color: #090909;
+  border-radius: 17px;
+  color: #F44E1D;
+  font-family: Montserrat B;
+  font-size: 17px;
+  display: block;
+  width: 215px;
+  height: 70px;
+  line-height: 22px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
