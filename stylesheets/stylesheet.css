@@ -1,15 +1,9 @@
-<<<<<<< HEAD
+
 /*Movil*/
 @font-face{
   font-family: 'Montserrat S';
   src: url(../fonts/Montserrat-SemiBold.ttf);
-=======
-@font-face {
-    font-family: 'Montserrat S';
-    src: url(../fonts/Montserrat-SemiBold.ttf);
->>>>>>> DisciplineSectionSantiago
 }
-
 @font-face {
     font-family: 'Montserrat';
     src: url(../fonts/Montserrat-Regular.ttf);
@@ -19,17 +13,9 @@
     font-family: 'Montserrat B';
     src: url(../fonts/Montserrat-Bold.ttf);
 }
-<<<<<<< HEAD
 @font-face{
   font-family: 'Montserrat M';
   src: url(../fonts/Montserrat-Medium.ttf);
-
-=======
-
-@font-face {
-    font-family: 'Montserrat M';
-    src: url(../fonts/Montserrat-Medium.ttf);
->>>>>>> DisciplineSectionSantiago
 }
 
 @font-face {
@@ -68,20 +54,11 @@ html {
     color: #090909;
     font-family: Montserrat B;
 }
-<<<<<<< HEAD
 .h1-orange{
   font-size: 30px;
   color: #F44E1D;
   padding: 0 20px;
   font-family: Montserrat S;
-=======
-
-.h1-orange {
-    font-size: 30px;
-    color: #F44E1D;
-    padding: 6%;
-    font-family: Montserrat S;
->>>>>>> DisciplineSectionSantiago
 }
 
 .h3-black {
@@ -89,7 +66,7 @@ html {
     color: #090909;
     font-family: Montserrat M;
 }
-<<<<<<< HEAD
+
 .video{
   padding: 0 20px;
 }
@@ -102,8 +79,7 @@ html {
 .videos{
   margin: 0;
   padding: 20px 0;
-=======
-
+}
 .video {
     padding: 4%;
 }
@@ -112,7 +88,6 @@ html {
     font-size: 18px;
     color: #EAEAEA;
     font-family: OpenSans R;
->>>>>>> DisciplineSectionSantiago
 }
 
 #burgerBtn {
