@@ -130,6 +130,39 @@ body, html {
   height: 70px;
   line-height: 22px;
 }
+.disciplines-screen {
+  background-color: #171717;
+  transform: translateY(-1%);
+}
+#disciplines-title {
+  text-align: : center;
+}
+.discipline-list {
+  display: flex;
+  flex-flow: column;
+  padding: 0 20px;
+}
+.discipline-list-item {
+  width: 333px;
+  height: 83px;
+}
+.list-item-btn {
+    background-image: url("../Assets/RainbowSixBanner_Disciplines.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    border-radius: 17px;
+    border: solid 2px #F44E1D;
+    outline: none;
+}
+.list-item-btn:focus {
+  outline: none;
+  
+}
+
+
+
 
 
 
