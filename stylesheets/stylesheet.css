@@ -1,61 +1,95 @@
+<<<<<<< HEAD
 /*Movil*/
 @font-face{
   font-family: 'Montserrat S';
   src: url(../fonts/Montserrat-SemiBold.ttf);
+=======
+@font-face {
+    font-family: 'Montserrat S';
+    src: url(../fonts/Montserrat-SemiBold.ttf);
+>>>>>>> DisciplineSectionSantiago
 }
-@font-face{
-  font-family: 'Montserrat';
-  src: url(../fonts/Montserrat-Regular.ttf);
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url(../fonts/Montserrat-Regular.ttf);
 }
-@font-face{
-  font-family: 'Montserrat B';
-  src: url(../fonts/Montserrat-Bold.ttf);
+
+@font-face {
+    font-family: 'Montserrat B';
+    src: url(../fonts/Montserrat-Bold.ttf);
 }
+<<<<<<< HEAD
 @font-face{
   font-family: 'Montserrat M';
   src: url(../fonts/Montserrat-Medium.ttf);
 
+=======
+
+@font-face {
+    font-family: 'Montserrat M';
+    src: url(../fonts/Montserrat-Medium.ttf);
+>>>>>>> DisciplineSectionSantiago
 }
-@font-face{
-  font-family: 'OpenSans R';
-  src: url(../fonts/OpenSans-Regular.ttf);
+
+@font-face {
+    font-family: 'OpenSans R';
+    src: url(../fonts/OpenSans-Regular.ttf);
 }
-body, html {
-  padding: 0;
-  margin: 0;
+
+body,
+html {
+    padding: 0;
+    margin: 0;
 }
+
 .welcome-screen {
-  align-items: center;
+    align-items: center;
 }
+
 .header {
-  max-width: 100%;
-  background-color: #FEFEFC;
+    max-width: 100%;
+    background-color: #FEFEFC;
 }
-.esports-intro{
-  background-color: #090909;
-  align-items: center;
-  height: auto;
+
+.esports-intro {
+    background-color: #090909;
+    align-items: center;
+    height: auto;
 }
+
 .max-width-wrapper {
-  max-width: 1280px;
-  margin: 0 auto;
+    max-width: 1280px;
+    margin: 0 auto;
 }
+
 .h1-black {
-  font-size: 30px;
-  color: #090909;
-  font-family: Montserrat B;
+    font-size: 30px;
+    color: #090909;
+    font-family: Montserrat B;
 }
+<<<<<<< HEAD
 .h1-orange{
   font-size: 30px;
   color: #F44E1D;
   padding: 0 20px;
   font-family: Montserrat S;
+=======
+
+.h1-orange {
+    font-size: 30px;
+    color: #F44E1D;
+    padding: 6%;
+    font-family: Montserrat S;
+>>>>>>> DisciplineSectionSantiago
 }
+
 .h3-black {
-  font-size: 15px;
-  color: #090909;
-  font-family: Montserrat M;
+    font-size: 15px;
+    color: #090909;
+    font-family: Montserrat M;
 }
+<<<<<<< HEAD
 .video{
   padding: 0 20px;
 }
@@ -68,91 +102,163 @@ body, html {
 .videos{
   margin: 0;
   padding: 20px 0;
+=======
+
+.video {
+    padding: 4%;
+}
+
+.p-white {
+    font-size: 18px;
+    color: #EAEAEA;
+    font-family: OpenSans R;
+>>>>>>> DisciplineSectionSantiago
 }
 
 #burgerBtn {
-  border: none;
+    border: none;
     outline: none;
 }
+
 #burgerBtn:focus {
-  border: none;
+    border: none;
     outline: none;
 }
-#burgerBtn img{
-  width: 35px;
+
+#burgerBtn img {
+    width: 35px;
     height: 35px;
 }
+
 .nav-link {
-  color: #090909;
-  font-family: Montserrat;
-  font-size: 20px;
+    color: #090909;
+    font-family: Montserrat;
+    font-size: 20px;
 }
+
 .navbar {
-  margin-bottom: 20px;
+    margin-bottom: 20px;
 }
+
 .navbar-nav {
-  align-items: center;
+    align-items: center;
 }
+
 .dropdown-item {
-  color: #090909;
-  font-family: Montserrat;
+    color: #090909;
+    font-family: Montserrat;
 }
+
 .brand-link {
-  width: 200px;
+    width: 200px;
 }
+
 .logo {
-  max-width: 100%;
-  margin-top: 10px;
+    max-width: 100%;
+    margin-top: 10px;
 }
+
 .header-content {
-  flex-flow: column;
-  margin-bottom: 20px;
+    flex-flow: column;
+    margin-bottom: 20px;
 }
+
 .slogan-invitation-container {
-  display: flex;
-  flex-flow: column;
+    display: flex;
+    flex-flow: column;
 }
+
 .header-slogan {
-  font-size: 3.9vh;
-  margin-bottom: 20px;
+    font-size: 3.9vh;
+    margin-bottom: 20px;
 }
+
 #slogan-videogame {
-  font-family: Montserrat B;
+    font-family: Montserrat B;
 }
+
 .header-invitation {
-  margin-bottom: 20px;
-  font-size: 2.6vh;
+    margin-bottom: 20px;
+    font-size: 2.6vh;
 }
-.sign-up-button-container {
-}
+
+.sign-up-button-container {}
+
 .header-sign-up-btn {
-  background-color: #090909;
-  border-radius: 17px;
-  color: #F44E1D;
-  font-family: Montserrat B;
-  font-size: 17px;
-  display: block;
-  width: 215px;
-  height: 70px;
-  line-height: 22px;
+    background-color: #090909;
+    border-radius: 17px;
+    color: #F44E1D;
+    font-family: Montserrat B;
+    font-size: 17px;
+    display: block;
+    width: 215px;
+    height: 70px;
+    line-height: 22px;
 }
+
 .disciplines-screen {
-  background-color: #171717;
-  transform: translateY(-1%);
+    background-color: #171717;
+    transform: translateY(-1%);
 }
+
 #disciplines-title {
-  text-align: center;
+    text-align: center;
+    margin: 0;
+    padding: 20px 20px 0px 20px;
 }
+
 .discipline-list {
-  display: flex;
-  flex-flow: column;
-  align-items: center;
-  padding: 0 20px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    padding: 0 20px;
+    margin-right: 0px;
+    margin-left: 0px;
+    z-index: 0;
+    max-width: 100%;
 }
+
 .discipline-list-item {
-  width: 333px;
-  height: 83px;
+    height: 83px;
+    padding: 0;
+    z-index: 3;
+    margin-top: 20px;
 }
+
+.list-item-modal {
+    height: 119px;
+    width: 100%;
+    background-color: #FEFEFC;
+    align-items: center;
+    border-bottom: solid 2px #F44E1D;
+    border-right: solid 2px #F44E1D;
+    border-left: solid 2px #F44E1D;
+    border-radius: 17px;
+    z-index: 2;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-evenly;
+}
+
+.discipline-name {
+    font-size: 26px;
+    text-align: center;
+}
+
+.list-item-trnmt-btn {
+    background-color: #090909;
+    border: solid 2px #F44E1D;
+    border-radius: 17px;
+    color: #F44E1D;
+    font-family: Montserrat B;
+    font-size: 17px;
+    display: block;
+    transform: translateY(-3%);
+    margin: 0 auto;
+    height: 45%;
+    width: 60%;
+}
+
 .list-item-btn {
     background-position: center;
     background-size: cover;
@@ -162,25 +268,36 @@ body, html {
     border: solid 2px #F44E1D;
     outline: none;
 }
-.list-item-btn:focus {
-<<<<<<< HEAD
-  outline: none;  
-}
-#rainbow6-discipline {
 
-}
-#rainbow6-discipline {
-  
-}
-#rainbow6-discipline {
-  
-}
-#rainbow6-discipline {
-  
-}
-#rainbow6-discipline {
-  
-=======
+.list-item-btn:focus {
   outline: none;
->>>>>>> video
+}
+
+.collapsing.no-animation {
+    -webkit-transition: none;
+    transition: none;
+    display: none;
+}
+
+#rainbow6-discipline {
+    background-image: url("../Assets/RainbowSixBanner.jpg");
+}
+
+#overwatch-discipline {
+    background-image: url("../Assets/OverwatchBanner.png");
+}
+
+#rocketleague-discipline {
+    background-image: url("../Assets/RocketLeagueBanner.jpg");
+}
+
+#fortnite-discipline {
+    background-image: url("../Assets/FortniteBanner.jpg");
+}
+
+#fifa18-discipline {
+    background-image: url("../Assets/Fifa18Banner.png");
+}
+#lol-discipline {
+    background-image: url("../Assets/LolBanner.jpg");
 }
