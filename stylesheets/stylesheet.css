@@ -135,11 +135,12 @@ body, html {
   transform: translateY(-1%);
 }
 #disciplines-title {
-  text-align: : center;
+  text-align: center;
 }
 .discipline-list {
   display: flex;
   flex-flow: column;
+  align-items: center;
   padding: 0 20px;
 }
 .discipline-list-item {
@@ -147,7 +148,6 @@ body, html {
   height: 83px;
 }
 .list-item-btn {
-    background-image: url("../Assets/RainbowSixBanner_Disciplines.jpg");
     background-position: center;
     background-size: cover;
     height: 100%;
@@ -157,7 +157,21 @@ body, html {
     outline: none;
 }
 .list-item-btn:focus {
-  outline: none;
+  outline: none;  
+}
+#rainbow6-discipline {
+
+}
+#rainbow6-discipline {
+  
+}
+#rainbow6-discipline {
+  
+}
+#rainbow6-discipline {
+  
+}
+#rainbow6-discipline {
   
 }
 
