@@ -1,3 +1,4 @@
+/*Movil*/
 @font-face{
   font-family: 'Montserrat S';
   src: url(../fonts/Montserrat-SemiBold.ttf);
@@ -13,7 +14,7 @@
 @font-face{
   font-family: 'Montserrat M';
   src: url(../fonts/Montserrat-Medium.ttf);
-  
+
 }
 @font-face{
   font-family: 'OpenSans R';
@@ -47,7 +48,7 @@ body, html {
 .h1-orange{
   font-size: 30px;
   color: #F44E1D;
-  padding: 6%;
+  padding: 0 20px;
   font-family: Montserrat S;
 }
 .h3-black {
@@ -56,12 +57,17 @@ body, html {
   font-family: Montserrat M;
 }
 .video{
-  padding: 4%;
+  padding: 0 20px;
 }
 .p-white{
   font-size: 18px;
   color: #EAEAEA;
   font-family: OpenSans R;
+  padding: 0 20px;
+}
+.videos{
+  margin: 0;
+  padding: 20px 0;
 }
 
 #burgerBtn {
@@ -157,6 +163,7 @@ body, html {
     outline: none;
 }
 .list-item-btn:focus {
+<<<<<<< HEAD
   outline: none;  
 }
 #rainbow6-discipline {
@@ -173,27 +180,7 @@ body, html {
 }
 #rainbow6-discipline {
   
+=======
+  outline: none;
+>>>>>>> video
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
