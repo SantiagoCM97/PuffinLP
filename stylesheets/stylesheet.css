@@ -81,7 +81,14 @@ html {
   padding: 20px 0;
 }
 .video {
-    padding: 4%;
+  padding: 0 20px;
+  max-width: 100%;
+  align-items: center;
+  width: auto;
+  margin: 0 auto;
+}
+.youtube{
+    max-width: 100%;
 }
 
 .p-white {
