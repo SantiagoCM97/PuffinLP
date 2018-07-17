@@ -28,7 +28,12 @@ html {
     padding: 0;
     margin: 0;
 }
-
+.row{
+  margin: 0;
+}
+.container{
+  padding: 0 20px;
+}
 .welcome-screen {
     align-items: center;
 }
@@ -75,6 +80,12 @@ html {
   color: #EAEAEA;
   font-family: OpenSans R;
   padding: 0 20px;
+}
+.p-black{
+  font-size: 18px;
+  color: #090909;
+  font-family: OpenSans R;
+  font-weight: bolder;
 }
 .videos{
   margin: 0;
@@ -260,7 +271,26 @@ html {
     transition: none;
     display: none;
 }
-
+.footer{
+  max-width: 100%;
+  background-color: #FEFEFC;
+}
+.logofooter{
+  max-width: 100%;
+}
+.socialfooter{
+  width: auto;
+  margin: 20px 0;
+}
+.socialfooter img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.Puffin2018{
+  display: flex;
+  justify-content: flex-start;
+}
 #rainbow6-discipline {
     background-image: url("../Assets/RainbowSixBanner.jpg");
 }
