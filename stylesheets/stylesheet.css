@@ -323,20 +323,36 @@ html {
   background-color: #090909;
 }
 .tournament-banner {
-  background-color: #090909;
+  background-color: #FEFEFC;
+  padding: 20px 20px;
+  margin: 0px;
+  border-radius: 0px;
+  transform: translateY(-1%);
 }
 .tournament-title {
-  color: #F44E1D;
 }
 .banner-hr {
-  all: unset;
-  background-color: #F44E1D;
-  width: calc(100% - 40px);
-  margin: 20px 0;
+  border-top: 1px solid #F44E1D;
 }
 .register-widget-container {
-  padding: 0 20px;
 }
-
+.register-widget {
+  width: 100%;
+  height: 88px;
+}
+.stage-bracket-section {
+  background-color: #171717;
+  padding: 20px 0px 30px 0px;
+}
+.stage-title {
+  text-align: center;
+}
+.stage-widget-container {
+    height: 450px;
+}
+.stage-widget {
+  height: 100%;
+  width: 100%;
+}
 
 
