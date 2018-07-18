@@ -1,9 +1,10 @@
-
 /*Movil*/
-@font-face{
-  font-family: 'Montserrat S';
-  src: url(../fonts/Montserrat-SemiBold.ttf);
+
+@font-face {
+    font-family: 'Montserrat S';
+    src: url(../fonts/Montserrat-SemiBold.ttf);
 }
+
 @font-face {
     font-family: 'Montserrat';
     src: url(../fonts/Montserrat-Regular.ttf);
@@ -13,9 +14,10 @@
     font-family: 'Montserrat B';
     src: url(../fonts/Montserrat-Bold.ttf);
 }
-@font-face{
-  font-family: 'Montserrat M';
-  src: url(../fonts/Montserrat-Medium.ttf);
+
+@font-face {
+    font-family: 'Montserrat M';
+    src: url(../fonts/Montserrat-Medium.ttf);
 }
 
 @font-face {
@@ -28,12 +30,15 @@ html {
     padding: 0;
     margin: 0;
 }
-.row{
-  margin: 0;
+
+.row {
+    margin: 0;
 }
-.container{
-  padding: 0 20px;
+
+.container {
+    padding: 0 20px;
 }
+
 .welcome-screen {
     align-items: center;
 }
@@ -59,11 +64,12 @@ html {
     color: #090909;
     font-family: Montserrat B;
 }
-.h1-orange{
-  font-size: 30px;
-  color: #F44E1D;
-  padding: 0 20px;
-  font-family: Montserrat S;
+
+.h1-orange {
+    font-size: 30px;
+    color: #F44E1D;
+    padding: 0 20px;
+    font-family: Montserrat S;
 }
 
 .h3-black {
@@ -72,35 +78,41 @@ html {
     font-family: Montserrat M;
 }
 
-.video{
-  padding: 0 20px;
-}
-.p-white{
-  font-size: 18px;
-  color: #EAEAEA;
-  font-family: OpenSans R;
-  padding: 0 20px;
-}
-.p-black{
-  font-size: 18px;
-  color: #090909;
-  font-family: OpenSans R;
-  font-weight: bolder;
-}
-.videos{
-  margin: 0;
-  padding: 20px 0;
-}
 .video {
-  padding: 0 20px;
-  max-width: 100%;
-  align-items: center;
-  width: auto;
-  margin: 0 auto;
+    padding: 0 20px;
 }
-.youtube{
+
+.p-white {
+    font-size: 18px;
+    color: #EAEAEA;
+    font-family: OpenSans R;
+    padding: 0 20px;
+}
+
+.p-black {
+    font-size: 18px;
+    color: #090909;
+    font-family: OpenSans R;
+    font-weight: bolder;
+}
+
+.videos {
+    margin: 0;
+    padding: 20px 0;
+}
+
+.video {
+    padding: 0 20px;
+    max-width: 100%;
+    align-items: center;
+    width: auto;
+    margin: 0 auto;
+}
+
+.youtube {
     max-width: 100%;
 }
+
 #burgerBtn {
     border: none;
     outline: none;
@@ -125,8 +137,9 @@ html {
 .navbar {
     margin-bottom: 20px;
 }
+
 .common-navbar {
-  margin-bottom: 0px;
+    margin-bottom: 0px;
 }
 
 .navbar-nav {
@@ -146,8 +159,9 @@ html {
     max-width: 100%;
     margin-top: 10px;
 }
+
 .common-logo {
-  margin-top: 0px;
+    margin-top: 0px;
 }
 
 .header-content {
@@ -262,7 +276,7 @@ html {
 }
 
 .list-item-btn:focus {
-  outline: none;
+    outline: none;
 }
 
 .collapsing.no-animation {
@@ -270,26 +284,32 @@ html {
     transition: none;
     display: none;
 }
-.footer{
-  max-width: 100%;
-  background-color: #FEFEFC;
+
+.footer {
+    max-width: 100%;
+    background-color: #FEFEFC;
 }
-.logofooter{
-  max-width: 100%;
+
+.logofooter {
+    max-width: 100%;
 }
-.socialfooter{
-  width: auto;
-  margin: 20px 0;
+
+.socialfooter {
+    width: auto;
+    margin: 20px 0;
 }
-.socialfooter img{
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
+
+.socialfooter img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
 }
-.Puffin2018{
-  display: flex;
-  justify-content: flex-start;
+
+.Puffin2018 {
+    display: flex;
+    justify-content: flex-start;
 }
+
 #rainbow6-discipline {
     background-image: url("../Assets/RainbowSixBanner.jpg");
 }
@@ -309,24 +329,50 @@ html {
 #fifa18-discipline {
     background-image: url("../Assets/Fifa18Banner.png");
 }
+
 #lol-discipline {
     background-image: url("../Assets/LolBanner.jpg");
 }
+
 .widgets-section {
-  background-color: #090909;
+    background-color: #090909;
 }
+
 .tournament-banner {
-  background-color: #090909;
+    background-color: #FEFEFC;
+    padding: 20px 20px;
+    margin: 0px;
+    border-radius: 0px;
+    transform: translateY(-1%);
 }
-.tournament-title {
-  color: #F44E1D;
-}
+
+.tournament-title {}
+
 .banner-hr {
-  all: unset;
-  background-color: #F44E1D;
-  width: calc(100% - 40px);
-  margin: 20px 0;
+    border-top: 1px solid #F44E1D;
 }
-.register-widget-container {
-  padding: 0 20px;
+
+.register-widget-container {}
+
+.register-widget {
+    width: 100%;
+    height: 88px;
+}
+
+.stage-bracket-section {
+    background-color: #171717;
+    padding: 20px 0px 30px 0px;
+}
+
+.stage-title {
+    text-align: center;
+}
+
+.stage-widget-container {
+    height: 450px;
+}
+
+.stage-widget {
+    height: 100%;
+    width: 100%;
 }
