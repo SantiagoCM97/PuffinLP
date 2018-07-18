@@ -132,6 +132,9 @@ html {
 .navbar {
     margin-bottom: 20px;
 }
+.common-navbar {
+  margin-bottom: 0px;
+}
 
 .navbar-nav {
     align-items: center;
@@ -149,6 +152,9 @@ html {
 .logo {
     max-width: 100%;
     margin-top: 10px;
+}
+.common-logo {
+  margin-top: 0px;
 }
 
 .header-content {
@@ -313,3 +319,24 @@ html {
 #lol-discipline {
     background-image: url("../Assets/LolBanner.jpg");
 }
+.widgets-section {
+  background-color: #090909;
+}
+.tournament-banner {
+  background-color: #090909;
+}
+.tournament-title {
+  color: #F44E1D;
+}
+.banner-hr {
+  all: unset;
+  background-color: #F44E1D;
+  width: calc(100% - 40px);
+  margin: 20px 0;
+}
+.register-widget-container {
+  padding: 0 20px;
+}
+
+
+
