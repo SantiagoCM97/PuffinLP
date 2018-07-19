@@ -16,14 +16,14 @@
 		text-align: center;
 	}
 	.discipline-list {
-		flex-flow: row;
-		flex-wrap: wrap;
-		padding-bottom: 40px;
-		justify-content: space-evenly;
+		flex-flow: column;
 	}
 	.discipline-list-item {
- 	 	margin-right: 1px;
-  }
+ 	 	height: 95px;
+  	}
+  	.list-item-modal {
+  		width: 41.6666%
+  	}
 	#facebook-icon {
 		margin-left: 33.33333%;
 	}
@@ -64,6 +64,16 @@
 	.discipline-list-item {
 		height: 106px;
 		margin-right: 1px;
+		margin-top: 40px;
+	}
+	#disciplines-title {
+		padding-top: 40px;
+	}
+	.discipline-list {
+		flex-flow: row;
+		flex-wrap: wrap;
+		padding-bottom: 40px;
+		justify-content: space-evenly;
 	}
 	.header-sign-up-btn{
 		margin: 0 auto;
