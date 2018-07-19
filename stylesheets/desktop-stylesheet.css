@@ -16,19 +16,22 @@
 		text-align: center;
 	}
 	.discipline-list {
-		flex-flow: row;
-		flex-wrap: wrap;
-		padding-bottom: 40px;
-		justify-content: space-evenly;
+		flex-flow: column;
 	}
 	.discipline-list-item {
- 	 	margin-right: 1px;
-  }
+ 	 	height: 95px;
+  	}
+  	.list-item-modal {
+  		width: 41.6666%
+  	}
 	#facebook-icon {
 		margin-left: 33.33333%;
 	}
 	.videos{
 		align-items: center;
+	}
+	.diagonal-line {
+	    height: 45px;
 	}
 
 }
@@ -98,11 +101,17 @@
 		flex-flow: row;
 		justify-content: space-between;
 	}
+	.brand-link {
+    	width: 250px;
+	}
+	.nav-link {
+		font-size: 23px;
+	}
 	.header-slogan{
-		font-size: 35px;
+		font-size: 40px;
 	}
 	.header-invitation{
-		font-size: 20px;
+		font-size: 25px;
 	}
 	.slogan-invitation-container{
 		width: 50%;
@@ -115,15 +124,26 @@
 	.discipline-list-item {
 		height: 106px;
 		margin-right: 1px;
+		margin-top: 40px;
+	}
+	#disciplines-title {
+		padding-top: 40px;
+	}
+	.discipline-list {
+		flex-flow: row;
+		flex-wrap: wrap;
+		padding-bottom: 40px;
+		justify-content: space-evenly;
 	}
 	.list-item-modal{
 		display: none;
 	}
 	.header-sign-up-btn{
 		margin: 0 auto;
-		width: 230px;
-		height: 80px;
-		font-size: 20px;
+    	width: 280px;
+    	height: 95px;
+    	font-size: 25px;
+    	line-height: 30px;
 	}
 	.h1-orange {
 		font-size: 40px;
