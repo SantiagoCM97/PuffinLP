@@ -30,6 +30,9 @@
 	.videos{
 		align-items: center;
 	}
+	.diagonal-line {
+	    height: 45px;
+	}
 
 }
 @media (min-width: 1024px) {
@@ -38,11 +41,17 @@
 		flex-flow: row;
 		justify-content: space-between;
 	}
+	.brand-link {
+    	width: 250px;
+	}
+	.nav-link {
+		font-size: 23px;
+	}
 	.header-slogan{
-		font-size: 35px;
+		font-size: 40px;
 	}
 	.header-invitation{
-		font-size: 20px;
+		font-size: 25px;
 	}
 	.slogan-invitation-container{
 		width: 50%;
@@ -58,9 +67,10 @@
 	}
 	.header-sign-up-btn{
 		margin: 0 auto;
-		width: 230px;
-		height: 80px;
-		font-size: 20px;
+    	width: 280px;
+    	height: 95px;
+    	font-size: 25px;
+    	line-height: 30px;
 	}
 	.h1-orange {
 		font-size: 40px;
