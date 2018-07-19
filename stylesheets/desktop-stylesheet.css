@@ -34,6 +34,10 @@
 	    height: 45px;
 	}
 
+	.tournament-info {
+		padding: 0 20px;
+	}
+
 }
 @media (min-width: 1024px) {
 	.header-content{
@@ -106,6 +110,16 @@
 	.socialfooter {
 		padding-top: 20px;
 		padding-bottom: 20px;
+	}
+
+	.tournament-title {
+		font-size: 45px;
+	}
+	.tournament-caption {
+		font-size: 25px;
+	}
+	.tournament-register-inv {
+		font-size: 25px;
 	}
 
 }
