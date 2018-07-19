@@ -3,7 +3,7 @@
 		width: 220px;
 	}
 	.navbar {
-		padding: .5rem 1.5rem;
+		padding: 20px 40px;
 	}
 	.nav-item {
 		margin-right: 40px;
@@ -36,66 +36,6 @@
 
 }
 @media (min-width: 1024px) {
-	/*************************************HOVER BOX******************************************/
-	.hvrbox,
-.hvrbox * {
-	box-sizing: border-box;
-}
-.hvrbox {
-	position: relative;
-	display: inline-block;
-	overflow: hidden;
-	max-width: 100%;
-	height: auto;
-}
-.hvrbox img {
-	width: 100%;
-	height: 100%;
-	border: solid 1px #f7f7f7;
-}
-.hvrbox .hvrbox-layer_bottom {
-	display: block;
-}
-.hvrbox .hvrbox-layer_top {
-	opacity: 0;
-	position: absolute;
-	top: 0;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	width: 100%;
-	height: 100%;
-	background: #ededed;
-	color: #212121;
-	font-family: "pragmatica";
-	padding: 15px;
-	-moz-transition: all 0.4s ease-in-out 0s;
-	-webkit-transition: all 0.4s ease-in-out 0s;
-	-ms-transition: all 0.4s ease-in-out 0s;
-	transition: all 0.4s ease-in-out 0s;
-}
-.hvrbox:hover .hvrbox-layer_top,
-.hvrbox.active .hvrbox-layer_top {
-	opacity: 1;
-}
-.hvrbox .hvrbox-text {
-	text-align: center;
-	font-size: 2.5rem;
-	display: inline-block;
-	position: absolute;
-	vertical-align: top;
-	margin-top: 100px;
-	margin-right: 40px;
-	text-align: left;
-	top: 0%;
-	left: 40%;
-	-moz-transform: translate(-50%, -50%);
-	-webkit-transform: translate(-50%, -50%);
-	-ms-transform: translate(-50%, -50%);
-	transform: translate(-50%, -50%);
-	color: black;
-}
-	/**************************************END OF HOVER***************************/
 	.header-content{
 		display: flex;
 		flex-flow: row;
@@ -103,6 +43,9 @@
 	}
 	.brand-link {
     	width: 250px;
+	}
+	.navbar {
+		padding: 20px 20px;
 	}
 	.nav-link {
 		font-size: 23px;
