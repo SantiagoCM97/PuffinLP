@@ -80,7 +80,9 @@
                 <div class="col col-12 col-md-5 discipline-list-item">
                     <button class="list-item-btn btn" id="rainbow6-discipline" data-toggle="collapse" data-target="#rainbow6-dropdown" aria-expanded="false" aria-controls="collapseExample">
                     </button>
+
                 </div>
+
                 <div class="list-item-modal collapse no-animation" id="rainbow6-dropdown">
                     <div class="h1-black discipline-name">RAINBOW SIX SIEGE</div>
                     <button class="btn list-item-trnmt-btn" type="button">Tournaments</button>
@@ -164,6 +166,20 @@
         </div>
       </div>
     </div>
+    <!--javascript code for the hover-->
+    <script>
+if(!(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) ){
+    var hoverOut = function(){
+      $(this).toggleClass("productOverlayBackground");
+      $(this).children().toggleClass("imgNotVisible");
+    };
+      $(".maxhvr").hover(function(){
+        $(this).toggleClass("productOverlayBackground");
+        $(this).children().toggleClass("imgNotVisible");
+      },hoverOut);
+    });
+  }
+</script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
