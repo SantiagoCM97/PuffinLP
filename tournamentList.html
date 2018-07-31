@@ -9,37 +9,71 @@
     <link rel="stylesheet" href="./stylesheets/stylesheet.css">
     <link rel="stylesheet" href="./stylesheets/desktop-stylesheet.css">
 </head>
+
 <body>
-	<div class="footer">
-      <div class="max-width-wrapper">
-        <div class="container">
-          <div class="row">
-            <!--Logo col-12-->
-            <div class="logofooter col-12 col-md-4">
-              <a class="brand-link brand-link-footer" href="./index.html">
+    <div class="header">
+        <div class="max-width-wrapper">
+            <nav class="navbar navbar-expand-lg common-navbar" style="background-color: transparent;">
+                <a class="brand-link" href="./index.html">
+                  <img class="logo common-logo" src="./Assets/PUFFINLOGO.png">
+              </a>
+                <button id="burgerBtn" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <img src="./Assets/menu.png">
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Tournaments</a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item" href="./tournament.html">PS4</a>
+                                <a class="dropdown-item" href="./tournament.html">Xbox One</a>
+                                <a class="dropdown-item" href="./tournament.html">PC</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="max-width-wrapper">
+            <div class="container">
+                <div class="row">
+                    <!--Logo col-12-->
+                    <div class="logofooter col-12 col-md-4">
+                        <a class="brand-link brand-link-footer" href="./index.html">
               <img class="logo" src="./Assets/PUFFINLOGO.png">
               </a>
+                    </div>
+                    <!--Socialmedia col-3-->
+                    <div class="socialfooter col-3 col-md-1" id="facebook-icon">
+                        <a href="#"><img src="./Assets/facebook.png"></a>
+                    </div>
+                    <div class="socialfooter col-3 col-md-1">
+                        <a href="https://twitter.com/puffin_esports"><img src="./Assets/twitter.png"></a>
+                    </div>
+                    <div class="socialfooter col-3 col-md-1">
+                        <a href="https://discord.gg/hdX47j"><img src="./Assets/discord.png"></a>
+                    </div>
+                    <div class="socialfooter col-3 col-md-1">
+                        <a href="https://www.twitch.tv/puffinesports"><img src="./Assets/twitch.png"></a>
+                    </div>
+                    <div class="w-100 d-none d-md-block"></div>
+                    <div class="Puffin2018 col-12 col-md-4">
+                        <p class="p-black">2018, PUFFIN E-SPORTS</p>
+                    </div>
+                </div>
             </div>
-            <!--Socialmedia col-3-->
-            <div class="socialfooter col-3 col-md-1" id="facebook-icon">
-              <a href="#"><img src="./Assets/facebook.png"></a>
-            </div>
-            <div class="socialfooter col-3 col-md-1">
-              <a href="https://twitter.com/puffin_esports"><img src="./Assets/twitter.png"></a>
-            </div>
-            <div class="socialfooter col-3 col-md-1">
-              <a href="https://discord.gg/hdX47j"><img src="./Assets/discord.png"></a>
-            </div>
-            <div class="socialfooter col-3 col-md-1">
-              <a href="https://www.twitch.tv/puffinesports"><img src="./Assets/twitch.png"></a>
-            </div>
-            <div class="w-100 d-none d-md-block"></div>
-            <div class="Puffin2018 col-12 col-md-4">
-              <p class="p-black">2018, PUFFIN E-SPORTS</p>
-            </div>
-          </div>
         </div>
-      </div>
     </div>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
