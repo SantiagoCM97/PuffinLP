@@ -21,9 +21,6 @@
 	.discipline-list-item {
  	 	height: 95px;
   	}
-  	.list-item-modal {
-  		width: 58.3333%;
-  	}
 	#facebook-icon {
 		margin-left: 33.33333%;
 	}
@@ -81,9 +78,6 @@
 		flex-wrap: wrap;
 		padding-bottom: 40px;
 		justify-content: space-evenly;
-	}
-	.list-item-modal{
-		display: none;
 	}
 	.header-sign-up-btn{
 		margin: 0 auto;

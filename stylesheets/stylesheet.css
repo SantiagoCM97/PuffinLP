@@ -237,22 +237,6 @@ html {
     z-index: 3;
     margin-top: 20px;
 }
-
-.list-item-modal {
-    height: 119px;
-    width: 100%;
-    background-color: #FEFEFC;
-    align-items: center;
-    border-bottom: solid 2px #F44E1D;
-    border-right: solid 2px #F44E1D;
-    border-left: solid 2px #F44E1D;
-    border-radius: 17px;
-    z-index: 2;
-    display: flex;
-    flex-flow: column;
-    justify-content: space-evenly;
-}
-
 .discipline-name {
     font-size: 26px;
     text-align: center;
@@ -285,13 +269,6 @@ html {
 .list-item-btn:focus {
     outline: none;
 }
-
-.collapsing.no-animation {
-    -webkit-transition: none;
-    transition: none;
-    display: none;
-}
-
 .footer {
     max-width: 100%;
     background-color: #FEFEFC;
